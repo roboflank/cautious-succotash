@@ -5,9 +5,10 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
-from scrapy.item import Item, Field
-from scrapy.loader.processors import MapCompose, TakeFirst
 from datetime import datetime
+
+from scrapy.item import Field, Item
+from scrapy.loader.processors import MapCompose, TakeFirst
 
 
 def remove_quotes(text):

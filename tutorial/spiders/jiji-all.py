@@ -1,7 +1,9 @@
-import scrapy
-import json
-from tutorial.items import CarSparePart
 import datetime
+import json
+
+import scrapy
+
+from tutorial.items import CarSparePart
 
 
 class QuotesSpider(scrapy.Spider):
