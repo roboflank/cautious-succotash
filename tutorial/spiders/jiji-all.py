@@ -40,7 +40,7 @@ class QuotesSpider(scrapy.Spider):
             "https://jiji.co.ke/api_web/v1/listing?slug=car-parts-and-accessories&page="
             + str(self.page_number))
         print("Next fetch:", next_fetch)
-        yield response.follow(page_res["next_url"])
+        yield response.follow(next_fetch)
 
     def process_item(self, response):
         url_id = response.meta["url_id"]

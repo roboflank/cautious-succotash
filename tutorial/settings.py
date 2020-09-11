@@ -67,10 +67,12 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     #    'tutorial.middlewares.TutorialDownloaderMiddleware': 543,
-    "scrapy.downloadermiddlewares.useragent.UserAgentMiddleware": None,
-    "scrapy_fake_useragent.middleware.RandomUserAgentMiddleware": 100,
-    "tutorial.middlewares.CustomProxyMiddleware": 350,
-    "scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware": 400,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
+    'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
+    'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware': 401,
+    "tutorial.middlewares.CustomProxyMiddleware": 500,
+    "scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware": 550,
 }
 
 # Enable or disable extensions
@@ -86,7 +88,7 @@ ITEM_PIPELINES = {
 }
 # MONGO_URI = 'mongodb://localhost:27017'
 MONGO_URI = "mongodb://AdminDenz:Darkside#254@localhost:27017"
-MONGO_DATABASE = "repairer-sandbox1"
+MONGO_DATABASE = "repairer-sandbox-proxy"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
