@@ -25,7 +25,7 @@ class QuotesSpider(scrapy.Spider):
                 print('Fetching: ', item_url)
                 root_url_id = ad['url'].split('.html')[0]
                 root_url_id = root_url_id.split('-')[len(root_url_id.split('-')) - 1]
-                yield response.follow(item_url, callback=self.process_item, meta={"url_id": root_url_id})
+                yield scrapy.Request(item_url, callback=self.process_item, meta={"url_id": root_url_id})
     
         self.page_number += 1
         next_fetch = 'https://jiji.co.ke/api_web/v1/listing?slug=car-parts-and-accessories&page=' + str(self.page_number)
