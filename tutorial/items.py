@@ -12,13 +12,13 @@ from datetime import datetime
 
 def remove_quotes(text):
     # strip the unicode quotes
-    text = text.strip(u'\u201c'u'\u201d')
+    text = text.strip(u"\u201c" u"\u201d")
     return text
 
 
 def convert_date(text):
     # convert string March 14, 1879 to Python date
-    return datetime.strptime(text, '%B %d, %Y')
+    return datetime.strptime(text, "%B %d, %Y")
 
 
 def parse_location(text):
@@ -50,6 +50,7 @@ def parse_location(text):
 #         output_processor=TakeFirst()
 #         )
 #     tags = Field()
+
 
 class CarSparePart(Item):
     _id = Field()
