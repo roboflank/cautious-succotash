@@ -1,0 +1,255 @@
+{
+  "adult_only": false,
+  "advert": {
+    "abuse_reported": true,
+    "admin_info": {},
+    "apply_url": null,
+    "attributes": [
+      ["Type", "Game Consoles", "str", null, 1],
+      ["Condition", "Used", "str", null, 1],
+      ["Exchange Possible", "Yes", "str", null, 1]
+    ],
+    "available_tops_count": 0,
+    "badge_info": {},
+    "can_view_contacts": true,
+    "can_view_contacts_auth_url": null,
+    "can_view_contacts_message_auth_url": null,
+    "category_id": 19,
+    "category_name": "Video Game Consoles",
+    "category_slug": "video-games-and-consoles",
+    "close_similar_text": null,
+    "count_images": null,
+    "count_views": 3953,
+    "create_advert_like_this_url": "/add-free-ad.html?category_id=19&region_id=3754",
+    "date": "Mar 13",
+    "date_created": "Fri, 13 Mar 2020 16:25:15 GMT",
+    "date_edited": null,
+    "date_moderated": null,
+    "description": "clean console on a quicksale \\none pad ..no game",
+    "employer_took_cv": false,
+    "fav_count": 0,
+    "fb_view_content_data": {
+      "content_category": "Video Game Consoles",
+      "content_ids": ["42300796-dfdb-43d8-a92f-76e40d42e301"],
+      "content_name": "Ps4 Console",
+      "content_type": "product",
+      "currency": "USD",
+      "value": "0.06"
+    },
+    "icon_attributes": [],
+    "id": 2488543,
+    "images": [
+      {
+        "center": null,
+        "height": 640,
+        "id": 7465424,
+        "is_main": true,
+        "url": "https://d12prgon3aw7l1.cloudfront.net/7465424_images-2_480x640.jpg",
+        "width": 480
+      }
+    ],
+    "images_data": {
+      "base": [
+        {
+          "center": null,
+          "height": 640,
+          "id": 7465424,
+          "is_main": true,
+          "url": "https://d12prgon3aw7l1.cloudfront.net/7465424_images-2_480x640.jpg",
+          "width": 480
+        }
+      ],
+      "thumbnails": [
+        {
+          "center": null,
+          "height": 400,
+          "id": 7465424,
+          "is_main": true,
+          "url": "https://d12prgon3aw7l1.cloudfront.net/7465424_images-2_300x400.jpg",
+          "width": 300
+        }
+      ]
+    },
+    "is_active": false,
+    "is_closed": false,
+    "is_cv": false,
+    "is_fav": false,
+    "is_job": false,
+    "is_on_moderation": false,
+    "is_request_seller_to_call_back_show": true,
+    "is_sent_cv": false,
+    "make_an_offer_auth_url": "/login.html?url=https%3A%2F%2Fjiji.co.ke%2Froysambu%2Fvideo-games-and-consoles%2Fps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html&type=make-an-offer",
+    "message_url": "/login.html?url=https%3A%2F%2Fjiji.co.ke%2Froysambu%2Fvideo-games-and-consoles%2Fps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html%3Fshow_message%3D1%23message_anchor&type=reply-form",
+    "paid_info": null,
+    "price": {
+      "is_closed": false,
+      "period": null,
+      "title": "KSh 19,000",
+      "type": "Amount",
+      "value": 19000
+    },
+    "price_history": false,
+    "region_name": "Roysambu",
+    "region_slug": "roysambu",
+    "region_text": "Roysambu, Nairobi, Kenya",
+    "safety_tips": [
+      "Do not pay in advance even for the delivery",
+      "Try to meet at a safe, public location",
+      "Check the item BEFORE you buy it",
+      "Pay only after collecting the item"
+    ],
+    "services_info": {
+      "is_boost": false,
+      "is_top": false,
+      "is_vip": false,
+      "tops_count": 0
+    },
+    "shared_data": {
+      "facebook_uri": "https://jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html?utm_campaign=facebookButton&utm_medium=save-to-fb-button&utm_source=facebook",
+      "log_advert_share_url": "/profile/share_log",
+      "social_data": [
+        {
+          "key": "mail",
+          "shared_count": 0,
+          "url": "mailto:?subject=Ps4 Console&body=https%3A//jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html%3Futm_campaign%3DmailButton%26utm_medium%3Dsite-share-button%26utm_source%3Dmail"
+        },
+        {
+          "key": "twitter",
+          "shared_count": 0,
+          "url": "http://twitter.com/share?text=Ps4 Console&url=https%3A//jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html%3Futm_campaign%3DtwitterButton%26utm_medium%3Dsite-share-button%26utm_source%3Dtwitter"
+        },
+        {
+          "key": "facebook",
+          "shared_count": 0,
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A//jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html%3Futm_campaign%3DfacebookButton%26utm_medium%3Dsite-share-button%26utm_source%3Dfacebook"
+        },
+        {
+          "key": "whatsapp",
+          "shared_count": 0,
+          "url": "https://web.whatsapp.com/send?text=https%3A//jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html%3Futm_campaign%3DwhatsappButton%26utm_medium%3Dsite-share-button%26utm_source%3Dwhatsapp"
+        }
+      ]
+    },
+    "similar_ads_href": "/video-games-and-consoles",
+    "source_url": null,
+    "status": "deleted",
+    "status_color": "#EB5757",
+    "title": "Ps4 Console",
+    "title_labels": [],
+    "url": "https://jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html"
+  },
+  "breadcrumbs_data": [
+    { "title": "All ads", "url": "https://jiji.co.ke/" },
+    { "title": "Electronics", "url": "/electronics" },
+    { "title": "Video Game Consoles", "url": "/video-games-and-consoles" },
+    { "title": "Ps4 Console", "url": null }
+  ],
+  "header_data": {
+    "category_id": 19,
+    "category_level": 1,
+    "change_region_text": "Select a city",
+    "change_region_url": "/regions/select-item?url=%2Fapi_web%2Fv1%2Fitem%2Fq8TRNMCAXmGPU8xpTeWDtWOb",
+    "count_favs": 0,
+    "create_advert_url": "/add-free-ad.html",
+    "current_region_name": "Kenya",
+    "current_url": "https://jiji.co.ke/api_web/v1/item/q8TRNMCAXmGPU8xpTeWDtWOb",
+    "is_logged_in": false,
+    "login_url": "/login.html",
+    "logo_src": "https://static.jiji.co.ke/static/img/logos/kenya.svg",
+    "logout_url": "/logout.html",
+    "main_url": "https://jiji.co.ke/",
+    "parent_category_id": 3,
+    "profile_url": "/profile.html",
+    "registration_url": "https://jiji.co.ke/registration.html",
+    "root_category_id": 3,
+    "search_url": "https://jiji.co.ke/search",
+    "show_logout_icon": false,
+    "show_region_bar": true,
+    "show_search_bar": true,
+    "unread_count": 0
+  },
+  "is_simple_view": null,
+  "notifications": [],
+  "seller": {
+    "advert_id": 2488543,
+    "advert_price": 19000,
+    "chat_on": true,
+    "date_created": "13 Mar 2020",
+    "feedback_count": 0,
+    "feedback_list_url": null,
+    "id": 2307449,
+    "image_url": "https://d12prgon3aw7l1.cloudfront.net/7465408__96x96.jpg",
+    "last_seen": "5 months ago",
+    "name": "Nelson Otieno",
+    "page_url": "/sellerpage-2307449",
+    "phone": "0771054683",
+    "quick_messages": [
+      "What is the last price?",
+      "Is it still available?",
+      "Please, call me back"
+    ],
+    "rating": null,
+    "rating_url": null,
+    "show_apply_button": false,
+    "start_chat_form": {
+      "error": null,
+      "id": "buyer_message",
+      "label": "Message",
+      "name": "buyer_message",
+      "validators": [
+        {
+          "error_message": "This field is required.",
+          "type": "DataRequired",
+          "value": "true"
+        },
+        {
+          "error_message": "Length should be greater than 10",
+          "type": "MinLength",
+          "value": "10"
+        },
+        {
+          "error_message": "Length should be less than 5000",
+          "type": "MaxLength",
+          "value": "5000"
+        }
+      ],
+      "value": null
+    },
+    "status": "active",
+    "user_can_leave_feedback": false,
+    "user_response_time": null
+  },
+  "seo": {
+    "alternate": [
+      "android-app://com.olx.ssa.ke/jiji/content/xxxxxx/ad-2488543.html"
+    ],
+    "canonical_url": "https://jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html",
+    "deeplink": "jiji://content/advert/ad-2488543.html",
+    "description": "Jiji.co.ke\\u2122 clean console on a quicksale one pad ..no game \\u2794 Ps4 Console in Roysambu - Video Game Consoles, Nelson Otieno | Jiji.co.ke",
+    "is_noindex": true,
+    "keywords": "Video Game Consoles, Ps4 Console",
+    "og_description": "clean console on a quicksale \\none pad ..no game",
+    "og_image_list": [
+      [
+        "image",
+        "https://d12prgon3aw7l1.cloudfront.net/7465424_images-2_300x400.jpg"
+      ],
+      ["image:width", 300],
+      ["image:height", 400]
+    ],
+    "og_image_url": "https://d12prgon3aw7l1.cloudfront.net/7465424_images-2_300x400.jpg",
+    "og_product_data": [
+      { "content": "Video Game Consoles", "property": "product:brand" },
+      { "content": "in stock", "property": "product:availability" },
+      { "content": "19000.00", "property": "product:price:amount" },
+      { "content": "KES", "property": "product:price:currency" },
+      { "content": "used", "property": "product:condition" }
+    ],
+    "og_sitename": "Jiji.co.ke",
+    "og_title": "Ps4 Console",
+    "og_url": "https://jiji.co.ke/roysambu/video-games-and-consoles/ps4-console-a3GiSYzFq8lU4VPCb5phlNkV.html",
+    "title": "Ps4 Console in Roysambu - Video Game Consoles, Nelson Otieno | Jiji.co.ke for sale in Kenya | Buy Video Game Consoles from Nelson Otieno on Jiji.co.ke",
+    "web_url": "https://jiji.co.ke/api_web/v1/item/q8TRNMCAXmGPU8xpTeWDtWOb"
+  },
+  "show_ads": false
+}
