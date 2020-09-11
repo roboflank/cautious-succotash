@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-
 # Define here the models for your scraped items
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
-
 from datetime import datetime
 
-from scrapy.item import Field, Item
-from scrapy.loader.processors import MapCompose, TakeFirst
+from scrapy.item import Field
+from scrapy.item import Item
+from scrapy.loader.processors import MapCompose
+from scrapy.loader.processors import TakeFirst
 
 
 def remove_quotes(text):
