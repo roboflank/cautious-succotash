@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-
 # Define here the models for your spider middleware
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
 from scrapy import signals
+from w3lib.http import basic_auth_header
 
 
 class TutorialSpiderMiddleware(object):
@@ -53,7 +52,7 @@ class TutorialSpiderMiddleware(object):
             yield r
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info("Spider opened: %s" % spider.name)
 
 
 class TutorialDownloaderMiddleware(object):
@@ -100,4 +99,11 @@ class TutorialDownloaderMiddleware(object):
         pass
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info("Spider opened: %s" % spider.name)
+
+
+class CustomProxyMiddleware(object):
+    def process_request(self, request, spider):
+        request.meta["proxy"] = "https://zproxy.lum-superproxy.io:22225"
+        request.headers["Proxy-Authorization"] = basic_auth_header(
+            "lum-customer-denzel_j-zone-static", "gt82d0hsgjte")
