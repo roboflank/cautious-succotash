@@ -7,16 +7,17 @@ class QuotesSpider(scrapy.Spider):
     name = "jiji-miner"
     start_urls = [
         'https://jiji.co.ke/api_web/v1/listing?slug=car-parts-and-accessories&page=0'
-        ]
+    ]
+
     def __init__(self):
         self.page_number = 1
-        
+
     def get_item_api_url(self, full_url):
         item_api_url_base = 'https://jiji.co.ke/api_web/v1/item/'
         root_url = full_url.split('.html')[0]
         url = item_api_url_base + root_url.split('-')[len(root_url.split('-')) - 1]
         return url
-         
+
     def parse(self, response):
         page_res = json.loads(response.body)
         if len(page_res['adverts_list']['adverts']) > 0:
@@ -26,7 +27,7 @@ class QuotesSpider(scrapy.Spider):
                 root_url_id = ad['url'].split('.html')[0]
                 root_url_id = root_url_id.split('-')[len(root_url_id.split('-')) - 1]
                 yield scrapy.Request(item_url, callback=self.process_item, meta={"url_id": root_url_id})
-    
+
         self.page_number += 1
         next_fetch = 'https://jiji.co.ke/api_web/v1/listing?slug=car-parts-and-accessories&page=' + str(self.page_number)
         print("Next fetch:", next_fetch)
@@ -52,7 +53,7 @@ class QuotesSpider(scrapy.Spider):
             item['description'] = advert_data['description']
             item['category_name'] = advert_data['category_name']
             item['category_id'] = advert_data['category_id']
-            item['seller']=advert_data_full['seller']
+            item['seller'] = advert_data_full['seller']
             item['price_obj'] = advert_data['price']
             item['region_name'] = advert_data['region_name']
             item['region_slug'] = advert_data['region_slug']
@@ -75,5 +76,5 @@ class QuotesSpider(scrapy.Spider):
             item['status'] = advert_data['status']
             item['crawled_at'] = datetime.datetime.utcnow().isoformat()
             item['price_currency'] = 'KES'
-            
+
             yield item
