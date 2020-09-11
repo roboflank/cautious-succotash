@@ -18,7 +18,8 @@ class QuotesSpider(scrapy.Spider):
     def get_item_api_url(self, full_url):
         item_api_url_base = "https://jiji.co.ke/api_web/v1/item/"
         root_url = full_url.split(".html")[0]
-        url = item_api_url_base + root_url.split("-")[len(root_url.split("-")) - 1]
+        url = item_api_url_base + root_url.split("-")[len(root_url.split("-"))
+                                                      - 1]
         return url
 
     def parse(self, response):
@@ -28,16 +29,16 @@ class QuotesSpider(scrapy.Spider):
                 item_url = self.get_item_api_url(ad["url"])
                 print("Fetching: ", item_url)
                 root_url_id = ad["url"].split(".html")[0]
-                root_url_id = root_url_id.split("-")[len(root_url_id.split("-")) - 1]
-                yield scrapy.Request(
-                    item_url, callback=self.process_item, meta={"url_id": root_url_id}
-                )
+                root_url_id = root_url_id.split("-")[
+                    len(root_url_id.split("-")) - 1]
+                yield scrapy.Request(item_url,
+                                     callback=self.process_item,
+                                     meta={"url_id": root_url_id})
 
         self.page_number += 1
         next_fetch = (
             "https://jiji.co.ke/api_web/v1/listing?slug=car-parts-and-accessories&page="
-            + str(self.page_number)
-        )
+            + str(self.page_number))
         print("Next fetch:", next_fetch)
         yield response.follow(page_res["next_url"])
 
@@ -56,7 +57,8 @@ class QuotesSpider(scrapy.Spider):
             item["images"] = advert_data["images"]
             item["og_url"] = advert_data_full["seo"]["og_url"]
             item["api_url"] = advert_data_full["seo"]["web_url"]
-            item["og_product_data"] = advert_data_full["seo"]["og_product_data"]
+            item["og_product_data"] = advert_data_full["seo"][
+                "og_product_data"]
             item["og_title"] = advert_data_full["seo"]["og_title"]
             item["description"] = advert_data["description"]
             item["category_name"] = advert_data["category_name"]

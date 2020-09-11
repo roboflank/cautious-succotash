@@ -106,5 +106,4 @@ class CustomProxyMiddleware(object):
     def process_request(self, request, spider):
         request.meta["proxy"] = "https://zproxy.lum-superproxy.io:22225"
         request.headers["Proxy-Authorization"] = basic_auth_header(
-            "lum-customer-denzel_j-zone-static", "gt82d0hsgjte"
-        )
+            "lum-customer-denzel_j-zone-static", "gt82d0hsgjte")
